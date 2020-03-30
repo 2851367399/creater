@@ -1,0 +1,177 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "店下商城"
+			}
+		}
+	    ,{
+            "path" : "pages/classify/classify",
+            "style" : {
+							"navigationBarTitleText":"商品分类"
+						}
+        }
+        ,{
+            "path" : "pages/car/car",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" : {
+							"navigationBarTitleText":"个人中心"
+						}
+        }
+     
+        ,{
+            "path" : "pages/components/search-page/search-page",
+            "style" : {
+							"navigationBarTitleText":"搜索"
+						}
+        }
+        ,{
+            "path" : "pages/common/goods-list/goods-list"
+        }
+        ,{
+            "path" : "pages/components/goods-result/goods-result",
+            "style" : {
+							"navigationBarTitleText":"商品列表"
+						}
+        }
+  
+        ,{
+            "path" : "pages/common/goods-detail/goods-detail",
+            "style" : {
+							"navigationBarTitleText":"商品详情"
+						}
+        }
+        ,{
+            "path" : "pages/components/pay/pay",
+            "style" : {
+							"navigationBarTitleText":"付款页面"
+						}
+        }
+        ,{
+            "path" : "pages/components/choose-shop/choose-shop",
+            "style" : {
+							"navigationBarTitleText":"选择门店"
+						}
+        }
+        ,{
+            "path" : "pages/components/address/address",
+            "style" : {
+							"navigationBarTitleText":"地址"
+						}
+        }
+        ,{
+            "path" : "pages/components/new-address/new-address",
+            "style" : {
+							"navigationBarTitleText":"新建地址"
+						}
+        }
+        ,{
+            "path" : "pages/components/register/register",
+            "style" : {
+							"navigationBarTitleText":"注册页"
+						}
+        }
+        ,{
+            "path" : "pages/components/login/login",
+            "style" : {
+							"navigationBarTitleText":"登录页"
+						}
+        }
+        ,{
+            "path" : "pages/components/edit-address/edit-address",
+            "style" : {
+							"navigationBarTitleText":"编辑地址"
+						}
+        }
+        ,{
+            "path" : "pages/components/order/order",
+            "style" : {
+							"navigationBarTitleText":"我的订单"
+						}
+        }
+        ,{
+            "path" : "pages/components/order-detail/order-detail",
+            "style" : {
+							"navigationBarTitleText":"订单详情"
+						}
+        }
+        ,{
+            "path" : "pages/components/return-goods/return-goods",
+            "style" : {
+							"navigationBarTitleText":"申请退货"
+						}
+        }
+        ,{
+            "path" : "pages/components/appraise/appraise",
+            "style" : {
+							"navigationBarTitleText":"评价"
+						}
+        }
+        ,{
+            "path" : "pages/components/collect/collect",
+            "style" : {
+							"navigationBarTitleText":"我的收藏"
+						}
+        }
+        ,{
+            "path" : "pages/components/cart/cart",
+            "style" : {
+							"navigationBarTitleText":"购物车"
+						}
+        }
+        ,{
+            "path" : "pages/components/money/money",
+            "style" : {
+							"navigationBarTitleText":"充值中心"
+						}
+        }
+        ,{
+            "path" : "pages/components/bill/bill",
+            "style" : {
+							"navigationBarTitleText":"我的账单"
+						}
+        }
+    ],
+	"tabBar": {
+			"color":"#676C74",
+			"selectedColor":"#C74242",
+			"list":[
+				{
+					"pagePath":"pages/index/index",
+					"iconPath":"/static/images/index.png",
+					"selectedIconPath":"/static/images/index-active.png",
+					"text":"首页"
+				},
+				{
+					"pagePath":"pages/car/car",
+					"iconPath":"/static/images/downline.png",
+					"selectedIconPath":"/static/images/downline-active.png",
+					"text":"店下爆品"
+				},
+				{
+					"pagePath":"pages/classify/classify",
+					"iconPath":"/static/images/classify.png",
+					"selectedIconPath":"/static/images/classify-active.png",
+					"text":"分类"
+				},
+		
+				{
+					"pagePath":"pages/mine/mine",
+					"iconPath":"/static/images/my.png",
+					"selectedIconPath":"/static/images/my-active.png",
+					"text":"个人中心"
+				}
+			]
+		},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance":10
+	}
+}

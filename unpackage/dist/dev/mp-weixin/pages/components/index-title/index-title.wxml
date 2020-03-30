@@ -1,0 +1,1 @@
+<view class="title-box"><view class="title"><image style="{{(wx)}}" src="{{src}}"></image><text style="{{(distance)}}">{{text}}</text></view></view>

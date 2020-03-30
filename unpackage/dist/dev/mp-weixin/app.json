@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/car/car",
+    "pages/mine/mine",
+    "pages/components/search-page/search-page",
+    "pages/common/goods-list/goods-list",
+    "pages/components/goods-result/goods-result",
+    "pages/common/goods-detail/goods-detail",
+    "pages/components/pay/pay",
+    "pages/components/choose-shop/choose-shop",
+    "pages/components/address/address",
+    "pages/components/new-address/new-address",
+    "pages/components/register/register",
+    "pages/components/login/login",
+    "pages/components/edit-address/edit-address",
+    "pages/components/order/order",
+    "pages/components/order-detail/order-detail",
+    "pages/components/return-goods/return-goods"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "onReachBottomDistance": 10
+  },
+  "tabBar": {
+    "color": "#676C74",
+    "selectedColor": "#C74242",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/images/index.png",
+        "selectedIconPath": "/static/images/index-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "iconPath": "/static/images/downline.png",
+        "selectedIconPath": "/static/images/downline-active.png",
+        "text": "店下爆品"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "iconPath": "/static/images/classify.png",
+        "selectedIconPath": "/static/images/classify-active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/static/images/my.png",
+        "selectedIconPath": "/static/images/my-active.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap77.json"
+}

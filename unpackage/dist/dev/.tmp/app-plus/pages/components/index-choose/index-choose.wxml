@@ -1,0 +1,1 @@
+<view class="choose-box"><block wx:for="{{chooseList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view class="choose"><view><image src="{{item.src}}"></image><view>{{item.text}}</view></view></view></block></block></view>

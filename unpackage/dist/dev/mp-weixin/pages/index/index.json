@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "店下商城",
+  "usingComponents": {
+    "index-nav": "/pages/components/index-nav/index-nav",
+    "swiper": "/pages/common/swiper/swiper",
+    "index-choose": "/pages/components/index-choose/index-choose",
+    "index-title": "/pages/components/index-title/index-title",
+    "index-vip": "/pages/components/index-vip/index-vip",
+    "index-discount": "/pages/components/index-discount/index-discount",
+    "index-news": "/pages/common/goods-list/goods-list",
+    "index-recommend": "/pages/components/index-recommend/index-recommend"
+  }
+}

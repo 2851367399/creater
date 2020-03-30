@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "usingComponents": {
+    "search": "/pages/common/search/search",
+    "goods-list": "/pages/common/goods-list/goods-list"
+  }
+}

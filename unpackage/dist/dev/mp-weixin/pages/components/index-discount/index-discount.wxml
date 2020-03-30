@@ -1,0 +1,1 @@
+<view class="discount-box"><view class="discount"><image class="topic" src="/static/images/discount-01.png"></image><view><block wx:for="{{discountList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view><image src="{{item}}"></image></view></block></block></view></view></view>

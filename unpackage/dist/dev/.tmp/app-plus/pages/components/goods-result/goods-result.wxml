@@ -1,0 +1,1 @@
+<view><search vue-id="1" flag="{{flag}}" bind:__l="__l"></search><view class="search-nav"><block wx:for="{{navList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view><text>{{item}}</text></view></block></block></view><goods-list vue-id="2" newsList="{{newsList}}" isMarginTop="{{isMarginTop}}" bind:__l="__l"></goods-list></view>

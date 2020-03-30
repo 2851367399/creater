@@ -1,0 +1,663 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background: #EFEFF4;
+}
+.swiper-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 21rpx 21rpx 0 21rpx;
+  background: #fff;
+}
+.swiper-box swiper {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    height: 350rpx;
+}
+.swiper-box swiper swiper-item {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      width: 100%;
+}
+.swiper-box swiper swiper-item view {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        height: 350rpx;
+}
+.swiper-box swiper swiper-item view image {
+          width: 100%;
+          height: 100%;
+}
+.goods-info {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #fff;
+}
+.goods-info .goods-title {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 30rpx;
+    padding-bottom: 20rpx;
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+}
+.goods-info .goods-title .title {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-content: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
+}
+.goods-info .goods-title .title .sell {
+        background: #B4302D;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        color: #fff;
+        font-size: 24rpx;
+        padding: 0 4rpx;
+        padding-top: 4rpx;
+}
+.goods-info .goods-title .title text:last-child {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        color: #686868;
+        font-size: 30rpx;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        margin-left: 8rpx;
+}
+.goods-info .goods-title .price {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-content: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+.goods-info .goods-title .price view:first-child {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+}
+.goods-info .goods-title .price view:first-child text {
+          font-size: 36rpx;
+          color: #444;
+}
+.goods-info .goods-title .price view:last-child {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+}
+.goods-info .goods-title .price view:last-child text {
+          font-size: 18rpx;
+          color: #AAAAAA;
+}
+.goods-info .goods-params {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-bottom: 1px solid #E7E7E7;
+    line-height: 90rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    box-sizing: border-box;
+    padding: 0 30rpx;
+}
+.goods-info .goods-params text:first-child {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      font-size: 30rpx;
+      color: #000;
+}
+.goods-info .goods-params .choose-params {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+.goods-info .goods-params .choose-params text {
+        font-size: 30rpx;
+        color: #BDBDBD;
+        margin-right: 12rpx;
+}
+.goods-info .goods-params .choose-params image {
+        width: 20rpx;
+        height: 25rpx;
+}
+.goods-sell {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 20rpx;
+  background: #fff;
+}
+.goods-sell .goods-nav {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-bottom: 1px solid #E7E7E7;
+    border-top: 1px solid #E7E7E7;
+    height: 90rpx;
+    line-height: 90rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    background: #fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.goods-sell .goods-nav view {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      font-size: 30rpx;
+      color: #444444;
+      border-right: 1px solid #E7E7E7;
+      text-align: center;
+}
+.goods-sell .goods-nav view:last-child {
+      border-right: 0;
+}
+.goods-sell .goods-nav .active {
+      color: #B4302D;
+}
+.goods-sell .goods-show {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.goods-sell .goods-show image {
+      width: 100%;
+      display: block;
+}
+.goods-sell .goods-appraise {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 90rpx;
+    border-bottom: 1px solid #E7E7E7;
+    padding: 25rpx 0;
+}
+.goods-sell .goods-appraise .appraise-nav {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 0 30rpx;
+      font-size: 20rpx;
+}
+.goods-sell .goods-appraise .appraise-nav text {
+        background: #EAF2F7;
+        margin-right: 20rpx;
+        padding: 4rpx;
+        color: #9EA0A2;
+}
+.goods-sell .goods-appraise .appraise-nav text:last-child {
+        margin-right: 0;
+}
+.goods-sell .goods-appraise .appraise-nav .appraiseActive {
+        color: #fff;
+        background: #B4302D;
+}
+.goods-sell .appraise-list {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background: #fff;
+}
+.goods-sell .appraise-list .appraise-item {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 32rpx 30rpx;
+      border-bottom: 1px solid #E7E7E7;
+}
+.goods-sell .appraise-list .appraise-item .appraise-auth {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+}
+.goods-sell .appraise-list .appraise-item .appraise-auth view {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+              -ms-flex: 1;
+                  flex: 1;
+}
+.goods-sell .appraise-list .appraise-item .appraise-auth view image {
+            width: 50rpx;
+            height: 50rpx;
+            margin-right: 18rpx;
+            border-radius: 50%;
+}
+.goods-sell .appraise-list .appraise-item .appraise-auth view text:nth-child(2) {
+            font-size: 28rpx;
+            color: #444444;
+}
+.goods-sell .appraise-list .appraise-item .appraise-auth text:nth-child(2) {
+          font-size: 24rpx;
+          color: #AAAAAA;
+}
+.goods-sell .appraise-list .appraise-item .appraise-container {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        margin-top: 24rpx;
+}
+.goods-sell .appraise-list .appraise-item .appraise-container view {
+          color: #9B9B9B;
+          font-size: 24rpx;
+}
+.goods-sell .appraise-list .appraise-item .appraise-show {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin-top: 45rpx;
+}
+.goods-sell .appraise-list .appraise-item .appraise-show view {
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+              -ms-flex: 1;
+                  flex: 1;
+          -webkit-flex-shrink: 0;
+              -ms-flex-negative: 0;
+                  flex-shrink: 0;
+          height: 220rpx;
+          margin-right: 16rpx;
+          width: calc(33.33% - 11rpx);
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          border: 1px solid #E7E7E7;
+}
+.goods-sell .appraise-list .appraise-item .appraise-show view image {
+            width: 100%;
+            height: 100%;
+            display: block;
+}
+.goods-sell .appraise-list .appraise-item .appraise-show view:last-child {
+          margin-right: 0;
+}
+.goods-sell .appraise-list .appraise-item .appraise-sell {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+}
+.goods-sell .appraise-list .appraise-item .appraise-sell text {
+          font-size: 24rpx;
+          color: #BBBBBB;
+}
+.goods-sell .appraise-list .appraise-item:last-child {
+      border-bottom: 0;
+}
+.goods-sell .goods-sale {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.goods-sell .goods-sale .sale-item {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 32rpx 30rpx 55rpx 32rpx;
+}
+.goods-sell .goods-sale .sale-item .sale-title {
+        font-size: 26rpx;
+        color: #444;
+}
+.goods-sell .goods-sale .sale-item .sale-des {
+        margin-top: 32rpx;
+        font-size: 20rpx;
+        color: #888888;
+}
+.footer-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 90;
+}
+.footer-box .footer {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 100rpx;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.footer-box .footer .collect,
+    .footer-box .footer .buy,
+    .footer-box .footer .cart {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      height: 100rpx;
+      background: #f00;
+      text-align: center;
+      font-size: 30rpx;
+      color: #fff;
+      background: #B4302D;
+}
+.footer-box .footer .collect {
+      padding-top: 20rpx;
+      background: #522121;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.footer-box .footer .collect view {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        text-align: center;
+        position: relative;
+}
+.footer-box .footer .collect view image {
+          width: 40rpx;
+          height: 40rpx;
+          position: absolute;
+          left: 50%;
+          top: 15rpx;
+          -webkit-transform: translateX(-50%);
+              -ms-transform: translateX(-50%);
+                  transform: translateX(-50%);
+}
+.footer-box .footer .collect view view {
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          margin-top: 25rpx;
+}
+.footer-box .footer .collect view view text {
+            font-size: 20rpx;
+            color: #fff;
+}
+.footer-box .footer .cart {
+      background: #6C2E2E;
+}
+.cart-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 120rpx;
+  height: 120rpx;
+  position: fixed;
+  bottom: 120rpx;
+  right: 30rpx;
+  z-index: 99;
+  background: #fff;
+  border-radius: 50%;
+}
+.cart-box image {
+    width: 70rpx;
+    height: 70rpx;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+.badge {
+  position: absolute;
+  right: 10px;
+  font-size: 20rpx;
+  top: 6rpx;
+}
+.mark {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 199;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.show-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #FFFFFF;
+  z-index: 200;
+}
+.show-box .show-info {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 30rpx;
+}
+.show-box .show-info .show-title {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+}
+.show-box .show-info .show-title .show-img {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        border: 1px solid #efefef;
+        width: 140rpx;
+        height: 140rpx;
+}
+.show-box .show-info .show-title .show-img image {
+          width: 100%;
+          height: 100%;
+          display: block;
+}
+.show-box .show-info .show-title .title {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 0 48rpx 0 24rpx;
+}
+.show-box .show-info .show-title .title .name {
+          font-size: 34rpx;
+          color: #444;
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+             text-overflow: ellipsis;
+          white-space: nowrap;
+          width: 100%;
+          margin-top: 10rpx;
+}
+.show-box .show-info .show-title .title .price {
+          font-size: 48rpx;
+          margin-top: 20rpx;
+}
+.show-box .show-info .show-title .show-close {
+        width: 40rpx;
+        height: 40rpx;
+        margin-top: 10rpx;
+}
+.show-box .show-info .show-title .show-close image {
+          width: 100%;
+          height: 100%;
+}
+.show-box .show-params {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.show-box .show-params .params-list {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 0 30rpx;
+      padding-bottom: 30rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+}
+.show-box .show-params .params-list .params-name {
+        font-size: 32rpx;
+        color: #AAAAAA;
+}
+.show-box .show-params .params-list .params-item {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+}
+.show-box .show-params .params-list .params-item text {
+          font-size: 24rpx;
+          color: #AAAAAA;
+          border: 1px solid #AAAAAA;
+          padding: 2rpx 6rpx;
+          margin-right: 6rpx;
+}
+.show-box .show-params .params-list .params-item text:last-child {
+          margin-right: 0;
+}
+.show-box .show-params .params-number {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 0 30rpx;
+      padding-bottom: 30rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.show-box .show-params .params-number .number-name {
+        font-size: 32rpx;
+        color: #AAAAAA;
+}
+.show-box .show-params .params-number .number-item {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: nowrap;
+            -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+}
+.show-box .show-params .params-number .number-item .item {
+          height: 45rpx;
+          line-height: 45rpx;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          border: 1px solid #efefef;
+          position: relative;
+          width: 45rpx;
+}
+.show-box .show-params .params-number .number-item .item text {
+            font-size: 24rpx;
+            position: absolute;
+            left: 17%;
+            top: 0;
+}
+.show-box .show-params .params-number .number-item .item image {
+            width: 30rpx;
+            height: 30rpx;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+}
+.show-box .btn {
+    line-height: 90rpx;
+    color: #fff;
+    font-size: 36rpx;
+}
+

@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.vip-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 14rpx 42rpx 30rpx 42rpx;
+}
+.vip-box .vip-banner {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-bottom: 30rpx;
+}
+.vip-box .vip-banner image {
+      width: 100%;
+      height: 200rpx;
+      display: block;
+}
+.vip-box .vip-goods {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.vip-box .vip-goods .goods-list {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      white-space: nowrap;
+}
+.vip-box .vip-goods .goods-list .goods {
+        -webkit-flex-shrink: 0;
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        margin-right: 12rpx;
+        box-sizing: border-box;
+        width: calc(32% - 12rpx);
+}
+.vip-box .vip-goods .goods-list .goods image {
+          display: block;
+          width: 100%;
+          height: 208rpx;
+}
+.vip-box .vip-goods .goods-list .goods .goods-title {
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          width: 100%;
+          overflow: hidden;
+          -o-text-overflow: ellipsis;
+             text-overflow: ellipsis;
+          white-space: nowrap;
+          color: #0F0F0F;
+          font-size: 23rpx;
+          margin-top: 14rpx;
+}
+.vip-box .vip-goods .goods-list .goods .goods-price {
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          font-weight: 700;
+          font-size: 24rpx;
+          margin-top: 8rpx;
+}
+.vip-box .vip-goods .goods-list .goods .goods-price .new-price, .vip-box .vip-goods .goods-list .goods .goods-price .new-unit {
+            color: #35B9B9;
+}
+.vip-box .vip-goods .goods-list .goods .goods-price .new-unit, .vip-box .vip-goods .goods-list .goods .goods-price .old-unit {
+            font-weight: normal;
+}
+.vip-box .vip-goods .goods-list .goods .goods-price .old-price, .vip-box .vip-goods .goods-list .goods .goods-price .old-unit {
+            color: #000;
+}
+.vip-box .vip-goods .goods-list .goods .goods-price .old-unit {
+            margin-left: 8rpx;
+}
+.vip-box .vip-goods .goods-list .goods:last-child {
+        margin-right: 0;
+}
+.vip-box .vip-get {
+    height: 164rpx;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-top: 30rpx;
+}
+.vip-box .vip-get image {
+      display: block;
+      height: 100%;
+      width: 100%;
+}
+.active {
+  text-decoration: line-through;
+  font-weight: normal !important;
+  color: #727272 !important;
+}
+
